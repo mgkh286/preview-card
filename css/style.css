@@ -43,7 +43,9 @@ p {
 }
 
 .container .image {
-  background: url('./images/image-header-mobile.jpg') no-repeat center/cover;
+  background: url(../images/image-header-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 400px;
   border-radius: 10px 10px 0 0;
 }
@@ -107,7 +109,9 @@ p {
   }
 
   .container .image {
-    background: url('./images/image-header-desktop.jpg') no-repeat center/cover;
+    background: url(../images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-width: 50%;
     border-radius: 0 10px 10px 0;
   }
@@ -124,7 +128,7 @@ p {
   }
   .container .card ul li {
     margin-right: 2rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   .container .card ul li span {
@@ -132,7 +136,7 @@ p {
     text-transform: lowercase;
     font-weight: 700;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 24px;
+    font-size: 1.7;
     margin-bottom: 3px;
   }
 }
