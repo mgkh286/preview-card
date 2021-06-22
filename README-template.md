@@ -18,12 +18,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-
 ### Screenshot
 
 ## desktop design: https://github.com/mgkh286/preview-card/blob/master/design/desktop-design.jpg
@@ -54,7 +48,7 @@ To see how you can add code snippets, see below:
   <div class="card image">
     <div class="empty"></div>
   </div>
-  <div class="card">
+  <div class="cardd">
     <h1>Get <span>insights</span> that help your business grow.</h1>
     <p>
       Discover the benefits of data analytics and make better decisions
